@@ -1,2 +1,16 @@
-<img width="1087" alt="image" src="https://github.com/CLVestergaard/Bayes-tutorial/assets/11651093/6e8dbb43-b7d5-40d5-8550-2116114a66f6"># Bayes-tutorial
+**Install conda:**
+
+https://www.anaconda.com/products/distributions
+
+**Create environment:**
+
+conda create -c conda-forge -n pymc_env "pymc>=4"<br>
+conda activate pymc_env
+
+**Install additional packages:**
+
+conda config --add channels conda-forge<br>
+conda install jupyter<br>
+conda install matplotlib<br>
+conda install python-graphviz
 
